@@ -65,7 +65,7 @@ public class Main {
     }
     public static void task5() {
         System.out.println("Задача 5");
-        int monthNumber =11;
+        int monthNumber =10;
         switch (monthNumber) {
             case 1: System.out.println("Январь принадлежит к сезону зима"); break;
             case 2: System.out.println("Февраль принадлежит к сезону зима"); break;
@@ -80,7 +80,7 @@ public class Main {
             case 11: System.out.println("Ноябрь принадлежит к сезону осень"); break;
             case 12: System.out.println("Декабрь принадлежит к сезону зима"); break;
             default:
-                System.out.println("Такого месяца не существует");
+                System.out.println("Такого месяца не существует ");
         }
 
     }
